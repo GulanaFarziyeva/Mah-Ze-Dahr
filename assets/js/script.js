@@ -1,9 +1,9 @@
 const headerTitleIcon = document.querySelector('.header-title__icon');
 const headerTitle = document.querySelector('.header-title');
-const main = document.querySelector('.main');
+const main = document.querySelector('main');
 headerTitleIcon.addEventListener('click', () =>{
     headerTitle.style.display = "none"
-    main.style.marginTop = "81px"
+    main.setAttribute('style', 'margin-top:81px !important')
 
 });
 
